@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Trying login</string>
+
+    <string name="LoginpageHeader"> Welcome to Login </string>
+    <string name="Username"> UserName </string>
+    <string name="PassWord"> Password </string>
+    <string name="LoginButton"> Login </string>
+    <string name="genderHeader"> Select Gender </string>
+    <string name="Select3"> Select Your Birthday</string>
+    <string name="Text3"> Enter You Birthday:</string>
+    <string name="Education"> Select which education degree You have earned so far.</string>
+    <string name="alert_title"> Exit!!!!!</string>
+    <string name="alert_message"> Do you want to exit?</string>
+
+</resources>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
+    android:background="#03A9F4"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity"
+
+   >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/login_img"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:fontFamily="@font/aclonica"
+        android:text="@string/LoginpageHeader"
+        android:textColor="#000000"
+        android:textSize="24sp"
+       />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/abril_fatface"
+        android:text="@string/Username"
+        android:textColor="#121111"
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:autofillHints="Enter Your name"
+        android:background="#F4EFEF"
+        android:clickable="true"
+        android:cursorVisible="true"
+        android:hint="Enter Your Name"
+        android:inputType="textPersonName"
+        android:textColor="#121111"
+        android:textColorHint="#818080"
+        android:textSize="20sp"
+       />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/abril_fatface"
+        android:text="@string/PassWord"
+        android:textColor="#121111"
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:id="@+id/editTextTextPassword2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#FFFDFD"
+        android:bufferType="editable"
+        android:cursorVisible="true"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:textColor="#050505"
+        android:textColorHint="#818080"
+        android:textSize="20sp"
+      />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+     >
+
+        <Button
+            android:id="@+id/buttonID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/LoginButton"
+            android:textColor="#F3EEEE"
+            android:textColorLink="#FFFFFF"
+            android:textSize="20sp"
+
+            app:backgroundTint="#000000" />
+
+        <Button
+            android:id="@+id/exitButtonID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#000"
+            android:text="back"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FBFBFB"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
